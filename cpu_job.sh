@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=benchmark
 #SBATCH -N1 -n8
-#SBATCH --time=00:30:00
+#SBATCH --time=00:59:99
 
 module load anaconda3
 source activate my_env
