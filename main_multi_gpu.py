@@ -109,8 +109,6 @@ for i in range(0, len(df), BATCH_SIZE):
     if i % (BATCH_SIZE * 10) == 0:
         print(f"Progress: {i}/{len(df)} in {round((time.time() - start_time))}s")
 
-print("Batch inference completed.")
-
 print("Complete!")
 finish = True
 usage_thread.join()
