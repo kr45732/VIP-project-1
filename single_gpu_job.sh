@@ -11,7 +11,7 @@ pip install transformers pillow torch pandas opencv-python matplotlib psutil
 
 echo "Starting Benchmark..."
 start=$(date +%s)
-python main.py
+python main_single_gpu.py
 end=$(date +%s)
 
 echo "Execution Time: $(($end - $start)) seconds"
